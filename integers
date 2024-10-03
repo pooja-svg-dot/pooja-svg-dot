@@ -1,0 +1,47 @@
+'''
+Write a program to create a list and display it. 
+Input format:
+Input consist of n+1 integers
+First integer corresponds to the size of the list
+Next n inputs corresponds to the elements in the list 
+Output format: 
+Output is an integer list
+Sample Input
+4 
+1
+2
+3
+4
+output
+[1,2,3,4]
+'''
+# Function to create and display a list
+def create_and_display_list():
+    # Read the size of the list
+    n = int(input("Enter the size of the list: "))
+    
+    # Initialize an empty list
+    int_list = []
+    
+    # Read n integers and append them to the list
+    for _ in range(n):
+        element = int(input("Enter an element: "))
+        int_list.append(element)
+    
+    # Display the resulting list
+    print(int_list)
+
+# Call the function
+create_and_display_list()
+input:
+4
+1
+2
+3
+4
+output:
+[1,2,3,4]
+
+
+
+
